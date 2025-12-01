@@ -1,0 +1,23 @@
+
+[0m[2m[35m$[0m [2m[1mnext build[0m
+ [33m[1m⚠[22m[39m Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/yagasaki/kali@dev/template-ecommerce/bun.lock as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/yagasaki/kali@dev/template-ecommerce/apps/web/bun.lock
+
+   [1m[38;2;173;127;168m▲ Next.js 16.0.6[39m[22m (Turbopack)
+
+[?25l [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m..[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m...[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m..[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m...[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m..[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m...[39m[2K[1G [37m[1m [22m[39m Running TypeScript  [36m.[39m[2K[1G[?25h[?25l [37m[1m [22m[39m Finished TypeScript in 2.0s  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Finished TypeScript in 2.0s     [32m[1m✓[22m[39m Finished TypeScript in 2.0s 
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully in 1288.7ms
+[?25l [37m[1m [22m[39m Collecting page data using 11 workers  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data using 11 workers  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data using 11 workers  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data using 11 workers in 586.4ms     [32m[1m✓[22m[39m Collecting page data using 11 workers in 586.4ms 
+[?25l [37m[1m [22m[39m Generating static pages using 11 workers (0/3)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages using 11 workers (0/3)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages using 11 workers (0/3)  [36m[==  ][39m[2K[1G[?25hTypeError: Cannot read properties of null (reading 'useState')
+    at i (.next/server/chunks/ssr/1d3dc_next_dist_esm_build_templates_pages_4ec99c2a.js:1:161)
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of null (reading 'useState')
+    at i (.next/server/chunks/ssr/1d3dc_next_dist_esm_build_templates_pages_4ec99c2a.js:1:161)
+Export encountered an error on /, exiting the build.
+ [31m[1m⨯[22m[39m Next.js build worker exited with code: 1 and signal: null
+[?25h[0m[31merror[0m[2m:[0m script [1m"build"[0m exited with code 1[0m
